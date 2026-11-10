@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ИП Харкевич И.И. — строительные работы и комплексный ремонт в Могилёве</title>
+<meta name="description" content="Комплексный ремонт квартир, домов, офисов и производственных помещений в Могилёве и области. 20 видов работ: демонтаж, монолит, кладка, кровля, инженерия, отделка. Тел. +375 (25) 521-77-63.">
+<style>
+:root{--paper:#fff;--mist:#F2F1ED;--ink:#111417;--graph:#6E767D;--line:rgba(17,20,23,.14);
+--red:#D22B2B;--pad:28px;--max:1280px;--disp:'Oswald',Impact,sans-serif;--body:'Golos Text',system-ui,sans-serif;
+--mono:'JetBrains Mono',ui-monospace,monospace}
+*{box-sizing:border-box}html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.6 var(--body);-webkit-font-smoothing:antialiased}
+img{max-width:100%;display:block}h1,h2,h3{margin:0;font-family:var(--disp);font-weight:600;line-height:1.02;letter-spacing:.01em;text-transform:uppercase}
+a{color:inherit;text-decoration:none}[hidden]{display:none!important}
+.wrap{width:100%;max-width:var(--max);margin:0 auto;padding:0 var(--pad)}
+.header{position:sticky;top:0;z-index:40;background:rgba(255,255,255,.96);border-bottom:1px solid var(--line);backdrop-filter:blur(10px)}
+.header__in{display:flex;align-items:center;gap:28px;padding:14px 0}
+.logo{display:flex;flex-direction:column;line-height:1.05}
+.logo b{font:600 20px/1 var(--disp);letter-spacing:.14em}
+.logo span{font:600 9.5px/1.4 var(--mono);letter-spacing:.2em;color:#5A6167;text-transform:uppercase}
+.nav{display:flex;gap:22px;margin-left:auto;font-size:14px}
+.nav a{padding:6px 0;border-bottom:2px solid transparent;color:#2C3339}
+.nav a:hover,.nav a.is-on{border-color:var(--red);color:var(--ink)}
+.header__tel{font:600 14px/1 var(--mono);letter-spacing:.02em}
+.burger{display:none;width:44px;height:40px;border:1px solid var(--line);background:#fff;align-items:center;justify-content:center;flex-direction:column;gap:4px;cursor:pointer}
+.burger i{display:block;width:18px;height:2px;background:var(--ink)}
+.btn{display:inline-flex;align-items:center;gap:10px;padding:14px 22px;font:600 13px/1 var(--body);letter-spacing:.06em;text-transform:uppercase;border:1px solid var(--ink);background:var(--ink);color:#fff;cursor:pointer;transition:.2s}
+.btn:hover{background:var(--red);border-color:var(--red)}
+.btn--line{background:transparent;color:var(--ink)}
+.btn--line:hover{background:var(--ink);border-color:var(--ink);color:#fff}
+.hero{position:relative;min-height:min(92svh,780px);display:flex;align-items:flex-end;color:#fff;overflow:hidden}
+.hero__img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.hero::after{content:'';position:absolute;inset:0;background:linear-gradient(180deg,rgba(17,20,23,.45) 0%,rgba(17,20,23,.18) 34%,rgba(17,20,23,.72) 78%,rgba(17,20,23,.9) 100%)}
+.hero__in{position:relative;z-index:2;width:100%;padding:clamp(40px,7vw,74px) 0 clamp(24px,3vw,34px)}
+.hero h1{font-size:clamp(2.5rem,7.2vw,5.6rem)}
+.hero__lede{max-width:52ch;margin:18px 0 24px;color:rgba(255,255,255,.86);font-size:clamp(.95rem,1.4vw,1.06rem)}
+.hero__acts{display:flex;flex-wrap:wrap;gap:12px;margin-bottom:clamp(24px,4vw,44px)}
+.hero .btn{background:var(--red);border-color:var(--red)}
+.hero .btn:hover{background:#fff;border-color:#fff;color:var(--ink)}
+.hero .btn--line{background:transparent;border-color:rgba(255,255,255,.5);color:#fff}
+.hero .btn--line:hover{background:#fff;color:var(--ink)}
+.hero__facts{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));border-top:1px solid rgba(255,255,255,.28)}
+.hero__facts div{padding:16px 18px 0 0}
+.hero__facts b{display:block;font:600 clamp(1.1rem,2vw,1.55rem)/1 var(--disp);letter-spacing:.04em}
+.hero__facts span{font-size:11.5px;color:rgba(255,255,255,.66);letter-spacing:.04em}
+.drawer{position:fixed;inset:0;z-index:90;background:rgba(17,20,23,.72);display:none}
+.drawer[data-open]{display:block}
+.drawer__in{position:absolute;inset:0 0 0 auto;width:min(420px,92vw);background:#fff;padding:26px;overflow-y:auto}
+body.is-locked{overflow:hidden}
+.mbar{display:none}
+@media (max-width:1020px){
+  .nav{display:none}.burger{display:flex}
+  .header__tel{font-size:13px}
+  .hero__facts{grid-template-columns:1fr 1fr}
+}
+</style>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Golos+Text:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+
+</head>
+<body>
+<header class="header"><div class="wrap header__in">
+<a class="logo" href="index.html"><b>ХАРКЕВИЧ</b><span>строительные работы · Могилёв</span></a>
+<nav class="nav" aria-label="Основное меню"><a href="index.html" class="is-on">Главная</a><a href="uslugi.html">Виды работ</a><a href="etapy.html">Порядок</a><a href="raboty.html">Объекты</a><a href="o-kompanii.html">О компании</a><a href="kontakty.html">Контакты</a></nav>
+<a class="header__tel" href="tel:+375255217763">+375 (25) 521-77-63</a>
+<a class="btn" href="https://wa.me/375255217763" target="_blank" rel="noopener">Вызвать на осмотр</a>
+<button class="burger" type="button" aria-label="Меню" aria-expanded="false" aria-controls="drawer"><i></i><i></i><i></i></button>
+</div></header>
+<div class="drawer" id="drawer" role="dialog" aria-modal="true" aria-label="Меню" hidden>
+<div class="drawer__in">
+<div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:22px">
+<a class="logo" href="index.html"><b>ХАРКЕВИЧ</b><span>строительные работы</span></a>
+<button class="burger" type="button" data-close aria-label="Закрыть меню" style="display:flex"><i style="transform:rotate(45deg) translateY(3px)"></i><i style="transform:rotate(-45deg) translateY(-3px)"></i></button>
+</div>
+<nav style="display:grid;gap:2px;font:600 20px/1 var(--disp);text-transform:uppercase;letter-spacing:.04em;margin-bottom:24px">
+<a href="index.html" style="padding:14px 0;border-bottom:1px solid var(--line)">Главная</a><a href="uslugi.html" style="padding:14px 0;border-bottom:1px solid var(--line)">Виды работ</a><a href="etapy.html" style="padding:14px 0;border-bottom:1px solid var(--line)">Порядок</a><a href="raboty.html" style="padding:14px 0;border-bottom:1px solid var(--line)">Объекты</a><a href="o-kompanii.html" style="padding:14px 0;border-bottom:1px solid var(--line)">О компании</a><a href="kontakty.html" style="padding:14px 0;border-bottom:1px solid var(--line)">Контакты</a>
+</nav>
+<a class="btn" style="width:100%;justify-content:center" href="tel:+375255217763">Позвонить +375 (25) 521-77-63</a>
+<p style="font-size:13px;color:var(--graph);margin:14px 0 0">Могилёв и Могилёвская область. Выезд на объект для осмотра и оценки объёма работ.</p>
+</div></div>
+<main>
+<section class="hero">
+<img class="hero__img" src="assets/img/hero.jpg" alt="Строительная площадка: монолитный каркас и рабочие на объекте" width="1800" height="1000" fetchpriority="high">
+<div class="hero__in"><div class="wrap">
+<h1>Любой объект.<br>Один подрядчик.</h1>
+<p class="hero__lede">Комплексный ремонт квартир, домов, офисов и производственных помещений в Могилёве и области. Двадцать видов работ силами одной организации: от сноса старого строения и монолита до электрики, вентиляции и сдачи под ключ.</p>
+<div class="hero__acts">
+<a class="btn" href="https://wa.me/375255217763" target="_blank" rel="noopener">Вызвать на осмотр</a>
+<a class="btn btn--line" href="uslugi.html">20 видов работ</a>
+</div>
+<div class="hero__facts">
+<div><b>7+ лет</b><span>опыт специалистов</span></div>
+<div><b>20</b><span>видов работ</span></div>
+<div><b>4</b><span>типа объектов</span></div>
+<div><b>под ключ</b><span>от проекта до сдачи</span></div>
+</div>
+</div></div>
+</section>
+
+<section class="section" id="works"><div class="wrap">
+<div class="sec-head"><div><p class="kick">01 — объём</p><h2 class="h2">Что закрывает<br>одна организация</h2></div>
+<p>Не нужно искать отдельных подрядчиков на снос, монолит, кровлю и электрику. Все работы ведутся по одному договору и одному графику: так проще держать сроки и отвечать за результат.</p></div>
+<div class="works"><a class="work work--link" href="uslugi.html"><span class="work__n">01</span><span><b>Снос старых строений</b><span>Дома, сараи, пристройки, фундаменты. Вывоз и утилизация мусора.</span></span></a><a class="work work--link" href="uslugi.html"><span class="work__n">02</span><span><b>Геодезические работы</b><span>Разбивка осей, вынос отметок, съёмка участка перед началом.</span></span></a><a class="work work--link" href="uslugi.html"><span class="work__n">03</span><span><b>Земляные работы</b><span>Котлованы, траншеи, планировка, обратная засыпка.</span></span></a><a class="work work--link" href="uslugi.html"><span class="work__n">04</span><span><b>Монолитные работы</b><span>Фундаменты, перекрытия, лестницы, армопояса.</span></span></a><a class="work work--link" href="uslugi.html"><span class="work__n">05</span><span><b>Бетонные и железобетонные работы</b><span>Стяжки, площадки, изделия по чертежу.</span></span></a><a class="work work--link" href="uslugi.html"><span class="work__n">06</span><span><b>Каменные работы</b><span>Кладка из блока и кирпича, перегородки, армирование.</span></span></a><a class="work work--link" href="uslugi.html"><span class="work__n">07</span><span><b>Монтаж конструкций</b><span>Металлокаркас, перекрытия, лестницы, навесы.</span></span></a><a class="work work--link" href="uslugi.html"><span class="work__n">08</span><span><b>Сварочные работы</b><span>Сварка конструкций и закладных на объекте.</span></span></a><a class="work work--link" href="uslugi.html"><span class="work__n">09</span><span><b>Электромонтажные работы</b><span>Разводка, щиты, освещение, подключение.</span></span></a><a class="work work--link" href="uslugi.html"><span class="work__n">10</span><span><b>Сантехнические работы</b><span>Трубы, разводка, приборы, канализация.</span></span></a><a class="work work--link" href="uslugi.html"><span class="work__n">11</span><span><b>Вентиляционные работы</b><span>Воздуховоды, приточка и вытяжка, зонты.</span></span></a><a class="work work--link" href="uslugi.html"><span class="work__n">12</span><span><b>Пусконаладочные работы</b><span>Проверка и запуск инженерных систем.</span></span></a><a class="work work--link" href="uslugi.html"><span class="work__n">13</span><span><b>Кровельные работы</b><span>Стропильная система, покрытие, примыкания, водосток.</span></span></a><a class="work work--link" href="uslugi.html"><span class="work__n">14</span><span><b>Фасадные работы</b><span>Утепление, штукатурка, окраска, облицовка.</span></span></a><a class="work work--link" href="uslugi.html"><span class="work__n">15</span><span><b>Отделочные работы</b><span>Черновая и чистовая отделка, шпаклёвка, плитка, полы.</span></span></a><a class="work work--link" href="uslugi.html"><span class="work__n">16</span><span><b>Ремонт под ключ</b><span>Квартира, дом, офис или цех целиком: от проекта до ключей.</span></span></a><a class="work work--link" href="uslugi.html"><span class="work__n">17</span><span><b>Благоустройство</b><span>Дорожки, отмостка, площадки, ограждения, озеленение.</span></span></a><a class="work work--link" href="uslugi.html"><span class="work__n">18</span><span><b>Внутренние сети</b><span>Ввод воды и электрики, узлы учёта.</span></span></a><a class="work work--link" href="uslugi.html"><span class="work__n">19</span><span><b>Авторский надзор</b><span>Проверка соответствия работ проекту на всех этапах.</span></span></a><a class="work work--link" href="uslugi.html"><span class="work__n">20</span><span><b>Сдача объекта</b><span>Исполнительная документация, приёмка, устранение замечаний.</span></span></a></div>
+</div></section>
+
+<section class="section section--mist" id="scope"><div class="wrap">
+<div class="sec-head"><div><p class="kick">02 — сборка объёма</p><h2 class="h2">Соберите объём работ</h2></div>
+<p>Отметьте, что нужно на вашем объекте. Список соберётся в одно сообщение: пришлёте его в WhatsApp, и мы ответим, что уточнить до выезда.</p></div>
+<div class="scope">
+<div class="scope__groups"><div class="gr"><div class="gr__t">01 · Демонтаж и подготовка</div><div class="gr__list"><label class="chk"><input type="checkbox" data-w="Снос старых строений"><span>Снос старых строений</span></label><label class="chk"><input type="checkbox" data-w="Геодезические работы"><span>Геодезические работы</span></label><label class="chk"><input type="checkbox" data-w="Земляные работы"><span>Земляные работы</span></label></div></div><div class="gr"><div class="gr__t">02 · Коробка и конструкции</div><div class="gr__list"><label class="chk"><input type="checkbox" data-w="Монолитные работы"><span>Монолитные работы</span></label><label class="chk"><input type="checkbox" data-w="Бетонные и железобетонные работы"><span>Бетонные и железобетонные работы</span></label><label class="chk"><input type="checkbox" data-w="Каменные работы"><span>Каменные работы</span></label><label class="chk"><input type="checkbox" data-w="Монтаж конструкций"><span>Монтаж конструкций</span></label><label class="chk"><input type="checkbox" data-w="Сварочные работы"><span>Сварочные работы</span></label></div></div><div class="gr"><div class="gr__t">03 · Инженерия</div><div class="gr__list"><label class="chk"><input type="checkbox" data-w="Электромонтажные работы"><span>Электромонтажные работы</span></label><label class="chk"><input type="checkbox" data-w="Сантехнические работы"><span>Сантехнические работы</span></label><label class="chk"><input type="checkbox" data-w="Вентиляционные работы"><span>Вентиляционные работы</span></label><label class="chk"><input type="checkbox" data-w="Пусконаладочные работы"><span>Пусконаладочные работы</span></label><label class="chk"><input type="checkbox" data-w="Кровельные работы"><span>Кровельные работы</span></label></div></div><div class="gr"><div class="gr__t">04 · Отделка и территория</div><div class="gr__list"><label class="chk"><input type="checkbox" data-w="Фасадные работы"><span>Фасадные работы</span></label><label class="chk"><input type="checkbox" data-w="Отделочные работы"><span>Отделочные работы</span></label><label class="chk"><input type="checkbox" data-w="Ремонт под ключ"><span>Ремонт под ключ</span></label><label class="chk"><input type="checkbox" data-w="Благоустройство"><span>Благоустройство</span></label><label class="chk"><input type="checkbox" data-w="Внутренние сети"><span>Внутренние сети</span></label><label class="chk"><input type="checkbox" data-w="Авторский надзор"><span>Авторский надзор</span></label><label class="chk"><input type="checkbox" data-w="Сдача объекта"><span>Сдача объекта</span></label></div></div></div>
+<div class="scope__sum">
+<div class="scope__lbl">Выбрано работ</div>
+<div class="scope__n"><span id="scN">0</span> <span style="font-size:.4em;color:var(--graph)">из 20</span></div>
+<ul class="scope__list" id="scList" hidden></ul>
+<p class="scope__empty" id="scEmpty">Пока ничего не отмечено. Начните с демонтажа или отделки: остальное добавится по ходу.</p>
+<a class="btn" id="scSend" href="https://wa.me/375255217763" target="_blank" rel="noopener">Отправить в WhatsApp</a>
+<a class="btn btn--line" href="tel:+375255217763" style="margin-top:8px">Позвонить и обсудить</a>
+<p class="scope__note">Стоимость считаем после осмотра объекта: она зависит от состояния основания, объёма и материалов. Ориентир по срокам дадим сразу.</p>
+</div>
+</div>
+</div></section>
+
+<section class="section" id="terms"><div class="wrap">
+<div class="sec-head"><div><p class="kick">03 — сроки</p><h2 class="h2">Сколько идёт объект</h2></div>
+<p>Порядок этапов одинаковый для всех объектов, меняется только длительность. Ниже ориентировочный график: точные сроки фиксируем после осмотра и замера.</p></div>
+<div class="gantt">
+<div>
+<div class="ctl"><div class="ctl__l"><span>Тип объекта</span><b id="gTypeL">Квартира</b></div>
+<div class="chips" id="gType">
+<button class="chip is-on" type="button" data-t="flat">Квартира</button>
+<button class="chip" type="button" data-t="house">Дом</button>
+<button class="chip" type="button" data-t="office">Офис</button>
+<button class="chip" type="button" data-t="industrial">Производство</button>
+</div></div>
+<div class="ctl"><div class="ctl__l"><span>Площадь</span><b id="gAreaL">62 м²</b></div>
+<input class="rng" type="range" id="gArea" min="20" max="800" step="2" value="62" aria-label="Площадь объекта, квадратные метры">
+</div>
+<div class="ctl"><div class="ctl__l"><span>Состояние</span><b id="gStateL">Вторичка</b></div>
+<div class="chips" id="gState">
+<button class="chip is-on" type="button" data-s="second">Вторичка</button>
+<button class="chip" type="button" data-s="new">Новостройка</button>
+<button class="chip" type="button" data-s="shell">Только коробка</button>
+</div></div>
+</div>
+<div class="gantt__out">
+<div class="gantt__total"><b id="gTotal">—</b><span>недель до сдачи</span></div>
+<svg id="gSvg" viewBox="0 0 520 190" role="img" aria-label="Диаграмма этапов работ"></svg>
+<div class="gantt__rows" id="gRows"></div>
+<p class="gantt__note">График учитывает параллельные работы: инженерия идёт одновременно с черновой отделкой. Длительность зависит от объёма и подрядных поставок материалов.</p>
+</div>
+</div>
+</div></section>
+
+<section class="section section--mist"><div class="wrap">
+<div class="sec-head"><div><p class="kick">04 — объекты</p><h2 class="h2">Так это выглядит</h2></div>
+<p>Фотографии с объектов: монолит и кладка, инженерия в стенах, отделка и фасад. Подписи — как в журнале объекта.</p></div>
+<div class="gal">
+<figure><img src="assets/img/flat.jpg" alt="Квартира после комплексного ремонта" width="1400" height="1050" loading="lazy"><figcaption>Квартира · отделка под ключ</figcaption></figure>
+<figure><img src="assets/img/monolit.jpg" alt="Армирование и опалубка монолитного участка" width="1400" height="1050" loading="lazy"><figcaption>Монолит · армирование</figcaption></figure>
+<figure><img src="assets/img/fasad.jpg" alt="Фасадные работы на доме" width="1400" height="1050" loading="lazy"><figcaption>Фасад · штукатурка</figcaption></figure>
+<figure class="wide"><img src="assets/img/eng.jpg" alt="Разводка электрики и сантехники в стенах" width="1600" height="700" loading="lazy"><figcaption>Инженерия · электрика и сантехника до отделки</figcaption></figure>
+</div>
+</div></section>
+
+<section class="section"><div class="wrap">
+<div class="sec-head"><div><p class="kick">05 — порядок</p><h2 class="h2">Пять шагов<br>до ключей</h2></div>
+<p>Работаем с сопровождением на всех этапах: проектирование и согласования, авторский надзор, приёмка. Вы всегда знаете, на каком этапе объект.</p></div>
+<div class="steps">
+<div class="step"><span class="step__n">01</span><b>Звонок и осмотр</b><p>Приезжаем на объект, смотрим состояние, замеряем, обсуждаем задачу и бюджет. Осмотр и первичная оценка объёма — бесплатно.</p></div>
+<div class="step"><span class="step__n">02</span><b>Смета и договор</b><p>Считаем объём работ и материалов, разбиваем по этапам, фиксируем сроки и порядок оплаты в договоре.</p></div>
+<div class="step"><span class="step__n">03</span><b>Черновые и инженерия</b><p>Демонтаж, монолит, кладка, разводка электрики и сантехники, вентиляция. Скрытые работы фотографируем до закрытия.</p></div>
+<div class="step"><span class="step__n">04</span><b>Отделка и фасад</b><p>Штукатурка, стяжка, плитка, малярные работы, фасад и кровля. Авторский надзор сверяет результат с проектом.</p></div>
+<div class="step"><span class="step__n">05</span><b>Сдача объекта</b><p>Пусконаладка систем, уборка, приёмка с вами, устранение замечаний и передача ключей.</p></div>
+</div>
+</div></section>
+
+<section class="section section--mist"><div class="wrap"><div class="two">
+<div><p class="kick">06 — вопросы</p><h2 class="h2" style="margin-bottom:22px">Отвечаем заранее</h2>
+<div class="faq">
+<details><summary>Работаете только в Могилёве?</summary><p>Могилёв и Могилёвская область — основной регион. По комплексным объектам выезжаем и в другие области Республики Беларусь, условия обсуждаем отдельно.</p></details>
+<details><summary>Можно заказать одну работу, а не весь ремонт?</summary><p>Да. Берём и отдельные виды работ: демонтаж, монолит, кладку, кровлю, инженерию, отделку. Комплексный объект просто удобнее: один график и один ответственный.</p></details>
+<details><summary>Кто закупает материалы?</summary><p>Можем работать и по вашим материалам, и по своим — от проверенных производителей. Во втором случае материалы идут отдельной строкой в смете.</p></details>
+<details><summary>Что с проектом и согласованиями?</summary><p>Сопровождаем объект от проектирования и согласования в надзорных органах до сдачи. Если проект уже есть, работаем по нему и ведём авторский надзор за соответствием.</p></details>
+<details><summary>Как считается стоимость?</summary><p>После осмотра: по объёму работ, состоянию основания и выбранным материалам. В смете каждая строка с единицей измерения, без «пакета целиком».</p></details>
+<details><summary>Даёте гарантию?</summary><p>Да, на выполненные работы. Условия и срок фиксируются в договоре, замечания по гарантии устраняем за свой счёт.</p></details>
+</div></div>
+<div><p class="kick">на объекте</p>
+<figure style="margin:0"><img src="assets/img/team.jpg" alt="Прораб на объекте с чертежами" width="1200" height="1500" style="aspect-ratio:4/5;object-fit:cover;width:100%" loading="lazy">
+<figcaption style="font:600 10.5px/1.6 var(--mono);letter-spacing:.12em;text-transform:uppercase;color:var(--graph);margin-top:10px">Прораб на объекте · проверка по проекту</figcaption></figure>
+</div>
+</div></div></section>
+
+<section class="cta"><div class="wrap cta__in">
+<div><h2>Приедем на объект<br>и оценим объём</h2>
+<p>Позвоните или напишите: согласуем время осмотра, посмотрим состояние и скажем, что и в каком порядке делать. С нашей компанией нет ничего невозможного.</p></div>
+<div class="cta__acts"><a class="btn" href="tel:+375255217763">Позвонить</a><a class="btn btn--line" href="https://wa.me/375255217763" target="_blank" rel="noopener">WhatsApp</a></div>
+</div></section>
+</main>
+<footer class="footer"><div class="wrap">
+<div class="footer__top">
+<div class="footer__about"><a class="logo" href="index.html"><b>ХАРКЕВИЧ</b><span>строительные работы</span></a>
+<p>Комплексный ремонт и строительные работы в Могилёве и Могилёвской области: от сноса и монолита до инженерии и сдачи объекта под ключ.</p></div>
+<div><h4>Разделы</h4><ul><li><a href="index.html">Главная</a></li><li><a href="uslugi.html">Виды работ</a></li><li><a href="etapy.html">Порядок</a></li><li><a href="raboty.html">Объекты</a></li><li><a href="o-kompanii.html">О компании</a></li><li><a href="kontakty.html">Контакты</a></li></ul></div>
+<div><h4>Работы</h4><ul><li><a href="uslugi.html">Демонтаж и земляные</a></li><li><a href="uslugi.html">Монолит и кладка</a></li><li><a href="uslugi.html">Инженерия</a></li><li><a href="uslugi.html">Отделка и фасад</a></li><li><a href="uslugi.html">Благоустройство</a></li></ul></div>
+<div><h4>Связь</h4><ul>
+<li><a href="tel:+375255217763">+375 (25) 521-77-63</a></li>
+<li><a href="mailto:harkevich.stroy@mail.by">harkevich.stroy@mail.by</a></li>
+<li>Могилёв и Могилёвская область</li>
+<li style="margin-top:10px"><div class="msgr"><a href="https://wa.me/375255217763" target="_blank" rel="noopener" aria-label="WhatsApp" style="color:#25D366"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15L2 22l5.2-1.4A10 10 0 1 0 12 2m5.3 14.1c-.2.6-1.2 1.2-1.9 1.2-.5 0-1.1 0-2-.4a11 11 0 0 1-4.4-3.9c-.5-.8-.9-1.7-.9-2.5 0-.7.4-1.4.9-1.8.2-.2.4-.3.6-.3h.5c.2 0 .4 0 .5.4l.7 1.6c0 .2 0 .3-.1.5l-.4.5c-.1.2-.2.3 0 .5a8 8 0 0 0 3.4 2.9c.2.1.4.1.5-.1l.6-.7c.1-.2.3-.2.5-.1l1.6.8c.2.1.3.2.3.4s0 .5-.1.9"/></svg></a><a href="viber://chat?number=%2B375255217763" aria-label="Viber" style="color:#7360F2"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2C7 2 3 5.6 3 10c0 2.5 1.3 4.7 3.4 6.1L6 21l4-1.6c.6.1 1.3.2 2 .2 5 0 9-3.6 9-8s-4-8-9-8m3.6 11.3c-.4.9-1.9 1.6-2.7 1.5-2.4-.3-4.6-2.1-5.4-4.4-.3-.8.2-2 1-2.4.3-.2.7 0 .9.3l.7 1.2c.1.3 0 .5-.2.7-.3.2-.2.5.1.9.6.8 1.2 1.2 1.9 1.5.4.2.6 0 .8-.2s.4-.3.7-.2l1.3.6c.3.2.3.6.2.9"/></svg></a><a href="https://t.me/+375255217763" target="_blank" rel="noopener" aria-label="Telegram" style="color:#229ED9"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M21.8 4.2 2.9 11.4c-.9.3-.9 1.5 0 1.8l4.6 1.5 1.7 5.3c.2.7 1 .9 1.5.3l2.5-2.6 4.6 3.4c.6.4 1.4 0 1.5-.7l2.5-15c.1-.8-.6-1.4-1.5-1.2M9.4 14.3l8.4-5.6-6.8 6.6-.2 3z"/></svg></a></div></li>
+</ul></div>
+</div>
+<div class="footer__bottom"><span>© <span id="yr">2026</span> ИП Харкевич И.И. Строительные работы.</span>
+<span><a href="politika.html">Политика обработки персональных данных</a></span></div>
+</div></footer>
+<div class="mbar" role="navigation" aria-label="Быстрая связь">
+<a href="tel:+375255217763"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M6.6 10.8a15.5 15.5 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.24c1.1.36 2.3.56 3.5.56a1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.2.2 2.4.56 3.5a1 1 0 0 1-.25 1z"/></svg>Позвонить</a>
+<a href="https://wa.me/375255217763" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15L2 22l5.2-1.4A10 10 0 1 0 12 2m5.3 14.1c-.2.6-1.2 1.2-1.9 1.2-.5 0-1.1 0-2-.4a11 11 0 0 1-4.4-3.9c-.5-.8-.9-1.7-.9-2.5 0-.7.4-1.4.9-1.8.2-.2.4-.3.6-.3h.5c.2 0 .4 0 .5.4l.7 1.6c0 .2 0 .3-.1.5l-.4.5c-.1.2-.2.3 0 .5a8 8 0 0 0 3.4 2.9c.2.1.4.1.5-.1l.6-.7c.1-.2.3-.2.5-.1l1.6.8c.2.1.3.2.3.4s0 .5-.1.9"/></svg>WhatsApp</a>
+<a href="viber://chat?number=%2B375255217763"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2C7 2 3 5.6 3 10c0 2.5 1.3 4.7 3.4 6.1L6 21l4-1.6c.6.1 1.3.2 2 .2 5 0 9-3.6 9-8s-4-8-9-8m3.6 11.3c-.4.9-1.9 1.6-2.7 1.5-2.4-.3-4.6-2.1-5.4-4.4-.3-.8.2-2 1-2.4.3-.2.7 0 .9.3l.7 1.2c.1.3 0 .5-.2.7-.3.2-.2.5.1.9.6.8 1.2 1.2 1.9 1.5.4.2.6 0 .8-.2s.4-.3.7-.2l1.3.6c.3.2.3.6.2.9"/></svg>Viber</a>
+<a href="https://t.me/+375255217763" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M21.8 4.2 2.9 11.4c-.9.3-.9 1.5 0 1.8l4.6 1.5 1.7 5.3c.2.7 1 .9 1.5.3l2.5-2.6 4.6 3.4c.6.4 1.4 0 1.5-.7l2.5-15c.1-.8-.6-1.4-1.5-1.2M9.4 14.3l8.4-5.6-6.8 6.6-.2 3z"/></svg>Telegram</a>
+</div>
+<script src="assets/js/main.js"></script>
+</body>
+</html>

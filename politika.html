@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Политика обработки персональных данных — ИП Харкевич И.И.</title>
+<meta name="description" content="Как обрабатываются персональные данные, переданные через сайт.">
+<style>
+:root{--paper:#fff;--mist:#F2F1ED;--ink:#111417;--graph:#6E767D;--line:rgba(17,20,23,.14);
+--red:#D22B2B;--pad:28px;--max:1280px;--disp:'Oswald',Impact,sans-serif;--body:'Golos Text',system-ui,sans-serif;
+--mono:'JetBrains Mono',ui-monospace,monospace}
+*{box-sizing:border-box}html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.6 var(--body);-webkit-font-smoothing:antialiased}
+img{max-width:100%;display:block}h1,h2,h3{margin:0;font-family:var(--disp);font-weight:600;line-height:1.02;letter-spacing:.01em;text-transform:uppercase}
+a{color:inherit;text-decoration:none}[hidden]{display:none!important}
+.wrap{width:100%;max-width:var(--max);margin:0 auto;padding:0 var(--pad)}
+.header{position:sticky;top:0;z-index:40;background:rgba(255,255,255,.96);border-bottom:1px solid var(--line);backdrop-filter:blur(10px)}
+.header__in{display:flex;align-items:center;gap:28px;padding:14px 0}
+.logo{display:flex;flex-direction:column;line-height:1.05}
+.logo b{font:600 20px/1 var(--disp);letter-spacing:.14em}
+.logo span{font:600 9.5px/1.4 var(--mono);letter-spacing:.2em;color:#5A6167;text-transform:uppercase}
+.nav{display:flex;gap:22px;margin-left:auto;font-size:14px}
+.nav a{padding:6px 0;border-bottom:2px solid transparent;color:#2C3339}
+.nav a:hover,.nav a.is-on{border-color:var(--red);color:var(--ink)}
+.header__tel{font:600 14px/1 var(--mono);letter-spacing:.02em}
+.burger{display:none;width:44px;height:40px;border:1px solid var(--line);background:#fff;align-items:center;justify-content:center;flex-direction:column;gap:4px;cursor:pointer}
+.burger i{display:block;width:18px;height:2px;background:var(--ink)}
+.btn{display:inline-flex;align-items:center;gap:10px;padding:14px 22px;font:600 13px/1 var(--body);letter-spacing:.06em;text-transform:uppercase;border:1px solid var(--ink);background:var(--ink);color:#fff;cursor:pointer;transition:.2s}
+.btn:hover{background:var(--red);border-color:var(--red)}
+.btn--line{background:transparent;color:var(--ink)}
+.btn--line:hover{background:var(--ink);border-color:var(--ink);color:#fff}
+.hero{position:relative;min-height:min(92svh,780px);display:flex;align-items:flex-end;color:#fff;overflow:hidden}
+.hero__img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.hero::after{content:'';position:absolute;inset:0;background:linear-gradient(180deg,rgba(17,20,23,.45) 0%,rgba(17,20,23,.18) 34%,rgba(17,20,23,.72) 78%,rgba(17,20,23,.9) 100%)}
+.hero__in{position:relative;z-index:2;width:100%;padding:clamp(40px,7vw,74px) 0 clamp(24px,3vw,34px)}
+.hero h1{font-size:clamp(2.5rem,7.2vw,5.6rem)}
+.hero__lede{max-width:52ch;margin:18px 0 24px;color:rgba(255,255,255,.86);font-size:clamp(.95rem,1.4vw,1.06rem)}
+.hero__acts{display:flex;flex-wrap:wrap;gap:12px;margin-bottom:clamp(24px,4vw,44px)}
+.hero .btn{background:var(--red);border-color:var(--red)}
+.hero .btn:hover{background:#fff;border-color:#fff;color:var(--ink)}
+.hero .btn--line{background:transparent;border-color:rgba(255,255,255,.5);color:#fff}
+.hero .btn--line:hover{background:#fff;color:var(--ink)}
+.hero__facts{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));border-top:1px solid rgba(255,255,255,.28)}
+.hero__facts div{padding:16px 18px 0 0}
+.hero__facts b{display:block;font:600 clamp(1.1rem,2vw,1.55rem)/1 var(--disp);letter-spacing:.04em}
+.hero__facts span{font-size:11.5px;color:rgba(255,255,255,.66);letter-spacing:.04em}
+.drawer{position:fixed;inset:0;z-index:90;background:rgba(17,20,23,.72);display:none}
+.drawer[data-open]{display:block}
+.drawer__in{position:absolute;inset:0 0 0 auto;width:min(420px,92vw);background:#fff;padding:26px;overflow-y:auto}
+body.is-locked{overflow:hidden}
+.mbar{display:none}
+@media (max-width:1020px){
+  .nav{display:none}.burger{display:flex}
+  .header__tel{font-size:13px}
+  .hero__facts{grid-template-columns:1fr 1fr}
+}
+</style>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Golos+Text:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+
+</head>
+<body>
+<header class="header"><div class="wrap header__in">
+<a class="logo" href="index.html"><b>ХАРКЕВИЧ</b><span>строительные работы · Могилёв</span></a>
+<nav class="nav" aria-label="Основное меню"><a href="index.html">Главная</a><a href="uslugi.html">Виды работ</a><a href="etapy.html">Порядок</a><a href="raboty.html">Объекты</a><a href="o-kompanii.html">О компании</a><a href="kontakty.html">Контакты</a></nav>
+<a class="header__tel" href="tel:+375255217763">+375 (25) 521-77-63</a>
+<a class="btn" href="https://wa.me/375255217763" target="_blank" rel="noopener">Вызвать на осмотр</a>
+<button class="burger" type="button" aria-label="Меню" aria-expanded="false" aria-controls="drawer"><i></i><i></i><i></i></button>
+</div></header>
+<div class="drawer" id="drawer" role="dialog" aria-modal="true" aria-label="Меню" hidden>
+<div class="drawer__in">
+<div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:22px">
+<a class="logo" href="index.html"><b>ХАРКЕВИЧ</b><span>строительные работы</span></a>
+<button class="burger" type="button" data-close aria-label="Закрыть меню" style="display:flex"><i style="transform:rotate(45deg) translateY(3px)"></i><i style="transform:rotate(-45deg) translateY(-3px)"></i></button>
+</div>
+<nav style="display:grid;gap:2px;font:600 20px/1 var(--disp);text-transform:uppercase;letter-spacing:.04em;margin-bottom:24px">
+<a href="index.html" style="padding:14px 0;border-bottom:1px solid var(--line)">Главная</a><a href="uslugi.html" style="padding:14px 0;border-bottom:1px solid var(--line)">Виды работ</a><a href="etapy.html" style="padding:14px 0;border-bottom:1px solid var(--line)">Порядок</a><a href="raboty.html" style="padding:14px 0;border-bottom:1px solid var(--line)">Объекты</a><a href="o-kompanii.html" style="padding:14px 0;border-bottom:1px solid var(--line)">О компании</a><a href="kontakty.html" style="padding:14px 0;border-bottom:1px solid var(--line)">Контакты</a>
+</nav>
+<a class="btn" style="width:100%;justify-content:center" href="tel:+375255217763">Позвонить +375 (25) 521-77-63</a>
+<p style="font-size:13px;color:var(--graph);margin:14px 0 0">Могилёв и Могилёвская область. Выезд на объект для осмотра и оценки объёма работ.</p>
+</div></div>
+<main>
+<section class="phero" style="min-height:clamp(220px,30vh,300px)"><img src="assets/img/eng.jpg" alt="Инженерные работы" width="1800" height="1000">
+<div class="phero__in"><div class="wrap"><div class="crumbs"><a href="index.html">Главная</a> / Политика</div><h1>Политика обработки данных</h1></div></div></section>
+<section class="section"><div class="wrap"><div class="prose">
+<p>Настоящая политика описывает, как ИП Харкевич И.И. обрабатывает персональные данные, которые вы передаёте через этот сайт.</p>
+<h3>Какие данные собираются</h3>
+<p>Только те, которые вы сообщаете сами: имя, номер телефона и описание задачи в форме заявки, а также переписка в мессенджерах и по телефону.</p>
+<h3>Зачем они нужны</h3>
+<p>Чтобы связаться с вами, согласовать осмотр объекта, подготовить смету и выполнить работы. Данные не передаются третьим лицам, кроме случаев, предусмотренных законодательством Республики Беларусь.</p>
+<h3>Где хранятся</h3>
+<p>В переписке и рабочих документах исполнителя. Сайт не использует собственных систем аналитики и не собирает данные форм на сервере: заявка формируется у вас и отправляется в мессенджер.</p>
+<h3>Ваши права</h3>
+<p>Вы можете запросить уточнение или удаление своих данных, написав на <a href="mailto:harkevich.stroy@mail.by" style="text-decoration:underline">harkevich.stroy@mail.by</a> или позвонив по телефону, указанному в разделе «Контакты».</p>
+<h3>Реквизиты</h3>
+<p>ИП Харкевич И.И. УНП уточняется. Юридический адрес и реквизиты предоставляются по запросу.</p>
+</div></div></section>
+</main>
+<footer class="footer"><div class="wrap">
+<div class="footer__top">
+<div class="footer__about"><a class="logo" href="index.html"><b>ХАРКЕВИЧ</b><span>строительные работы</span></a>
+<p>Комплексный ремонт и строительные работы в Могилёве и Могилёвской области: от сноса и монолита до инженерии и сдачи объекта под ключ.</p></div>
+<div><h4>Разделы</h4><ul><li><a href="index.html">Главная</a></li><li><a href="uslugi.html">Виды работ</a></li><li><a href="etapy.html">Порядок</a></li><li><a href="raboty.html">Объекты</a></li><li><a href="o-kompanii.html">О компании</a></li><li><a href="kontakty.html">Контакты</a></li></ul></div>
+<div><h4>Работы</h4><ul><li><a href="uslugi.html">Демонтаж и земляные</a></li><li><a href="uslugi.html">Монолит и кладка</a></li><li><a href="uslugi.html">Инженерия</a></li><li><a href="uslugi.html">Отделка и фасад</a></li><li><a href="uslugi.html">Благоустройство</a></li></ul></div>
+<div><h4>Связь</h4><ul>
+<li><a href="tel:+375255217763">+375 (25) 521-77-63</a></li>
+<li><a href="mailto:harkevich.stroy@mail.by">harkevich.stroy@mail.by</a></li>
+<li>Могилёв и Могилёвская область</li>
+<li style="margin-top:10px"><div class="msgr"><a href="https://wa.me/375255217763" target="_blank" rel="noopener" aria-label="WhatsApp" style="color:#25D366"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15L2 22l5.2-1.4A10 10 0 1 0 12 2m5.3 14.1c-.2.6-1.2 1.2-1.9 1.2-.5 0-1.1 0-2-.4a11 11 0 0 1-4.4-3.9c-.5-.8-.9-1.7-.9-2.5 0-.7.4-1.4.9-1.8.2-.2.4-.3.6-.3h.5c.2 0 .4 0 .5.4l.7 1.6c0 .2 0 .3-.1.5l-.4.5c-.1.2-.2.3 0 .5a8 8 0 0 0 3.4 2.9c.2.1.4.1.5-.1l.6-.7c.1-.2.3-.2.5-.1l1.6.8c.2.1.3.2.3.4s0 .5-.1.9"/></svg></a><a href="viber://chat?number=%2B375255217763" aria-label="Viber" style="color:#7360F2"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2C7 2 3 5.6 3 10c0 2.5 1.3 4.7 3.4 6.1L6 21l4-1.6c.6.1 1.3.2 2 .2 5 0 9-3.6 9-8s-4-8-9-8m3.6 11.3c-.4.9-1.9 1.6-2.7 1.5-2.4-.3-4.6-2.1-5.4-4.4-.3-.8.2-2 1-2.4.3-.2.7 0 .9.3l.7 1.2c.1.3 0 .5-.2.7-.3.2-.2.5.1.9.6.8 1.2 1.2 1.9 1.5.4.2.6 0 .8-.2s.4-.3.7-.2l1.3.6c.3.2.3.6.2.9"/></svg></a><a href="https://t.me/+375255217763" target="_blank" rel="noopener" aria-label="Telegram" style="color:#229ED9"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M21.8 4.2 2.9 11.4c-.9.3-.9 1.5 0 1.8l4.6 1.5 1.7 5.3c.2.7 1 .9 1.5.3l2.5-2.6 4.6 3.4c.6.4 1.4 0 1.5-.7l2.5-15c.1-.8-.6-1.4-1.5-1.2M9.4 14.3l8.4-5.6-6.8 6.6-.2 3z"/></svg></a></div></li>
+</ul></div>
+</div>
+<div class="footer__bottom"><span>© <span id="yr">2026</span> ИП Харкевич И.И. Строительные работы.</span>
+<span><a href="politika.html">Политика обработки персональных данных</a></span></div>
+</div></footer>
+<div class="mbar" role="navigation" aria-label="Быстрая связь">
+<a href="tel:+375255217763"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M6.6 10.8a15.5 15.5 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.24c1.1.36 2.3.56 3.5.56a1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.2.2 2.4.56 3.5a1 1 0 0 1-.25 1z"/></svg>Позвонить</a>
+<a href="https://wa.me/375255217763" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15L2 22l5.2-1.4A10 10 0 1 0 12 2m5.3 14.1c-.2.6-1.2 1.2-1.9 1.2-.5 0-1.1 0-2-.4a11 11 0 0 1-4.4-3.9c-.5-.8-.9-1.7-.9-2.5 0-.7.4-1.4.9-1.8.2-.2.4-.3.6-.3h.5c.2 0 .4 0 .5.4l.7 1.6c0 .2 0 .3-.1.5l-.4.5c-.1.2-.2.3 0 .5a8 8 0 0 0 3.4 2.9c.2.1.4.1.5-.1l.6-.7c.1-.2.3-.2.5-.1l1.6.8c.2.1.3.2.3.4s0 .5-.1.9"/></svg>WhatsApp</a>
+<a href="viber://chat?number=%2B375255217763"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2C7 2 3 5.6 3 10c0 2.5 1.3 4.7 3.4 6.1L6 21l4-1.6c.6.1 1.3.2 2 .2 5 0 9-3.6 9-8s-4-8-9-8m3.6 11.3c-.4.9-1.9 1.6-2.7 1.5-2.4-.3-4.6-2.1-5.4-4.4-.3-.8.2-2 1-2.4.3-.2.7 0 .9.3l.7 1.2c.1.3 0 .5-.2.7-.3.2-.2.5.1.9.6.8 1.2 1.2 1.9 1.5.4.2.6 0 .8-.2s.4-.3.7-.2l1.3.6c.3.2.3.6.2.9"/></svg>Viber</a>
+<a href="https://t.me/+375255217763" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M21.8 4.2 2.9 11.4c-.9.3-.9 1.5 0 1.8l4.6 1.5 1.7 5.3c.2.7 1 .9 1.5.3l2.5-2.6 4.6 3.4c.6.4 1.4 0 1.5-.7l2.5-15c.1-.8-.6-1.4-1.5-1.2M9.4 14.3l8.4-5.6-6.8 6.6-.2 3z"/></svg>Telegram</a>
+</div>
+<script src="assets/js/main.js"></script>
+</body>
+</html>
